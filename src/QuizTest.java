@@ -26,10 +26,10 @@ class QuizTest {
         String two = "The_Stealth_Warrior";
         String three = "The_Stealth-Warrior";
         String four = "-no_shot_bruh_";
-        assertTrue(Quiz.camelCaseMe(one).equals("TheStealthWarrior"));
+        assertTrue(Quiz.camelCaseMe(one).equals("theStealthWarrior"));
         assertTrue(Quiz.camelCaseMe(two).equals("TheStealthWarrior"));
         assertTrue(Quiz.camelCaseMe(three).equals("TheStealthWarrior"));
-        assertTrue(Quiz.camelCaseMe(four).equals("NoShotBruh"));
+        assertTrue(Quiz.camelCaseMe(four).equals("noShotBruh"));
     }
 
 }

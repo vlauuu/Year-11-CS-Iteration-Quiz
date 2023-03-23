@@ -78,12 +78,15 @@ public class Quiz {
 
         splited = currString2.split(" ", 0);
 
-        for(String currWord : splited)
+        for(int i = 0; i < splited.length ; i++)
         {
-            currWord = currWord.substring(0,1).toUpperCase() + currWord.substring(1).toLowerCase();
+            String currWord = splited[i];
+            if(!(i == 0)){
+                currWord = currWord.substring(0,1).toUpperCase() + currWord.substring(1).toLowerCase();
+            }
             finalString = finalString + currWord;
         }
-
+        System.out.println(finalString);
 
         return finalString;
     }
