@@ -70,11 +70,10 @@ public class Quiz {
 
         String currString = phrase.replace("-", " ");
         String currString2 = currString.replace("_", " ");
-        System.out.println(currString2);
 
-        if(currString2.charAt(0) == " ")
+        if(currString2.charAt(0) == ' ')
         {
-            currString2.
+            currString2 = currString2.substring(1);
         }
 
         splited = currString2.split(" ", 0);
@@ -85,7 +84,6 @@ public class Quiz {
             finalString = finalString + currWord;
         }
 
-        System.out.println(finalString);
 
         return finalString;
     }

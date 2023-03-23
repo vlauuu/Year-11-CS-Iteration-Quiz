@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e9af871-0c61-46cd-bc90-a0dc84891d70" name="Changes" comment="Included method descriptions.">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuizTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuizTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.QuizTest.toCamelCase">
+  <component name="RunManager" selected="JUnit.QuizTest">
     <configuration name="Quiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Quiz" />
       <module name="Year-11-CS-Iteration-Quiz" />
@@ -102,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QuizTest" />
         <item itemvalue="JUnit.QuizTest.toCamelCase" />
         <item itemvalue="JUnit.QuizTest.notDivisible" />
         <item itemvalue="JUnit.QuizTest.numberOfVowels" />
         <item itemvalue="Application.Quiz" />
-        <item itemvalue="JUnit.QuizTest" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679443044067</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Included method descriptions.">
+      <created>1679554802437</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679554802437</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
